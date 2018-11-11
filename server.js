@@ -26,7 +26,7 @@ app.post('/users', (req, res) => {
       res.sendStatus(200);
     }
     else{
-      res.staus(error.status).json(error);
+      res.status(error.status).json(error);
     }
   });
 });
